@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro</title>
+  </head>
+
+  <body>
+    <section>
+      <h1>Cadastrar Escola</h1>
+      <main>
+
+        <form class="" action="http://localhost:5000/escola" method="POST">
+
+          <label for="nome">Nome da Escola: </label>
+          <input type="text" name="nome">
+          <br>
+          <label for="logradouro">Logradouro da Escola: </label>
+          <input type="text" name="logradouro">
+          <br>
+          <label for="cidade">Cidade da Escola: </label>
+          <input type="text" name="cidade"> <br>
+
+          <input type="submit" name="cadastrar" value="Cadastrar" >
+
+        </form>
+
+      </main>
+    </section>
+
+    <section>
+      <h1>Cadastrar Aluno</h1>
+      <main>
+
+        <form class="" action="http://localhost:5000/aluno" method="POST">
+
+          <label for="nome">Nome da Escola: </label>
+          <input type="text" name="nome">
+          <br>
+          <label for="matricula">Matricula do aluno: </label>
+          <input type="text" name="matricula">
+          <br>
+          <label for="cpf">Cpf do aluno: </label>
+          <input type="text" name="cpf"> <br>
+          <label for="nascimento">Nascimento do aluno: </label>
+          <input type="date" name="nascimento"> <br>
+
+          <input type="submit" name="cadastrar" value="Cadastrar" >
+
+        </form>
+
+      </main>
+    </section>
+
+    <section>
+      <h1>Cadastrar Curso</h1>
+      <main>
+
+        <form class="" action="http://localhost:5000/curso" method="POST">
+
+          <label for="nome">Nome do Curso: </label>
+          <input type="text" name="nome">
+          <br>
+          <label for="turno">Turno do Curso: </label>
+          <input type="text" name="turno">
+          <br>
+
+          <input type="submit" name="cadastrar" value="Cadastrar" >
+
+        </form>
+
+      </main>
+    </section>
+
+    <section>
+      <h1>Cadastrar Turma</h1>
+      <main>
+
+        <form class="" action="http://localhost:5000/turma" method="POST">
+
+          <label for="nome">Nome da turma: </label>
+          <input type="text" name="nome">
+          <br>
+          <label for="logradouro">Logradouro da Escola: </label>
+          <input type="text" name="curso">
+          <br>
+
+
+          <input type="submit" name="cadastrar" value="Cadastrar" >
+
+        </form>
+
+      </main>
+    </section>
+
+    <section>
+      <h1>Cadastrar Disciplina</h1>
+      <main>
+
+        <form class="" action="http://localhost:5000/disciplina" method="POST">
+
+          <label for="nome">Nome da disciplina: </label>
+          <input type="text" name="nome">
+          <br>
+
+
+          <input type="submit" name="cadastrar" value="Cadastrar" >
+
+        </form>
+
+      </main>
+    </section>
+
+
+  </body>
+</html>
